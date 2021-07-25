@@ -4,7 +4,7 @@ pipeline {
 
     registry = "xyzjain/demoproject"
 
-    registryCredential = 'docker-creds'
+    registryCredential = 'dockerhub'
 
     dockerImage = ''
 
