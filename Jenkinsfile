@@ -44,7 +44,7 @@ pipeline {
 
         script {
 
-          docker.withRegistry( 'https://hub.docker.com/', registryCredential ) {
+          docker.withRegistry( 'https://hub.docker.com/repository/docker', registryCredential ) {
 
             dockerImage.push()
 
